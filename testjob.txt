@@ -6,3 +6,5 @@ TestSubBranch1
 
 TestSubBranch1only
 Adding last line
+
+Adding in master branch

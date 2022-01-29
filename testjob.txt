@@ -1,10 +1,1 @@
-this is comment "Testing out git & github".
-Adding one more line.
-
-
-TestSubBranch1
-
-TestSubBranch1only
-Adding last line
-
-Adding in master branch
+echo " This is a file on the git"

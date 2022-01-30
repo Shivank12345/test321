@@ -3,17 +3,12 @@ pipeline{
     stages{
         stage('Git Clone'){
             steps{
-                git 'https://github.com/Shivank12345/hello-world-spring-boot.git'
+                git 'https://github.com/Shivank12345/test321.git'
             }
         }
-        stage('Test Stage'){
+        stage('Create Docker'){
             steps{
-                echo "Testing completed"
-            }
-        }
-        stage('Build Stage'){
-            steps{
-                echo "Build completed"
+                'docker build -t redis/redis:latest'  
             }
         }
     }
